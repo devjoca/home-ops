@@ -15,6 +15,8 @@ HA uses an explicit list of essentials instead of `default_config`. Duplicate Go
 - Good night turns off downstairs lights, the combined diffuser and TV backlight, sleeps Apple TV and turns off the LG TV. Bedroom lights remain untouched.
 - Govee power follows the TV without changing the camera's video colour-matching mode.
 - The diffuser's mist and small LED have one combined on/off control.
+- The two lights at one office desk share a dashboard power and brightness control through a light group. Individual entities remain in manual presets and disconnection warnings.
+- Outside shows an Open-Meteo 12-hour temperature and precipitation-probability chart, plus today's low/high, apparent temperature and total precipitation forecast. Weather updates every 30 minutes. Bedroom and air views compare measured indoor PM2.5 with an hourly CAMS outdoor model estimate. Expired forecasts and outdoor samples are marked unavailable; location stays private.
 - Laundry completion increments persistent monthly counters and announces in Spanish on the household Echo, temporarily setting volume and then restoring it.
 - Apple TV's dashboard surface is status and TV/soundbar volume adjustment.
 
