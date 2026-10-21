@@ -31,3 +31,11 @@ The Alexa Devices integration lets HA control the Echo and make announcements. V
 Detailed recorder history is seven days. The System view has Pi and HA CPU/memory charts, a weekly memory trend, automation activity and editable sustained-load indicators. Automatic protected HA backups run daily with 14-day/14-copy retention, plus a Mac copy job. An archive or a verified file copy is not a tested restore.
 
 HA remains responsible for dashboard, automation, history, HomeKit and authentication. A future Rust adapter is an experiment, not a current dependency.
+
+## TV runner game
+
+A separate sideloaded TV game runs offline on the TV, with selectable pixel-art cats, remote-controlled jumping, an on-device top-ten scoreboard and locally synthesized chiptune audio. The launcher lists the game among its applications. The cat picker uses explicit directional navigation, independent of the action buttons. After a run, retry is focused and name entry opens only when the player chooses to save a score. Audio starts after Play and stops on pause or backgrounding. Game data can be lost when the app is removed or Developer Mode expires. It adds no Pi service or HA dependency. Source, character details, scores, artwork and installation records remain private.
+
+Local game development is tested in Chrome before a separate TV deployment.
+The installed game includes held-Down crouching, hanging obstacles and a
+gradual long-run speed increase. Sprite poses share the collision feet height.
