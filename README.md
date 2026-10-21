@@ -25,6 +25,7 @@ Open this repository as the project. Give the agent one concrete task, for examp
 - [Future experiments](docs/experiments.md): incremental Rust device adapters and fair model comparisons.
 - `scripts/pi_snapshot.py`: a read-only SSH health snapshot, using Python's standard library.
 - `scripts/resource_sample.py`: the collector used inside the HA container.
+- [LG Home watcher](tools/lg-home-watcher/): standalone Rust foreground watcher, example configuration and fake-TV protocol tests.
 
 ## Run locally
 

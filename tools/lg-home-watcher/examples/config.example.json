@@ -1,0 +1,12 @@
+{
+  "host": "tv.example.invalid",
+  "client_key": "REPLACE_WITH_EXISTING_PAIRING_KEY",
+  "launcher_id": "com.example.launcher",
+  "registration": {
+    "id": "register",
+    "type": "register",
+    "payload": {
+      "manifest": {}
+    }
+  }
+}

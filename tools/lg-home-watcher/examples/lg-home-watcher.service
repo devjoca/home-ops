@@ -1,0 +1,15 @@
+# Example user service: ~/.config/systemd/user/lg-home-watcher.service
+[Unit]
+Description=LG Home foreground watcher
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/lg-home-redirect-rust %h/.config/lg-home-watcher/tv.json
+Restart=on-failure
+RestartSec=10
+RestartPreventExitStatus=77 78
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target
